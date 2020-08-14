@@ -1,0 +1,125 @@
+  .title{
+    margin: 0.2em;
+    padding: 0.5em;
+    /*background-color: #D2691E;*/
+    text-align: center;
+    background-color: rgb(176, 38, 218);
+    margin:0px;
+  }
+  body{
+   /* background: linear-gradient(90deg, rgba(201,63,199,1) 0%, rgba(142,12,167,1) 35%, rgba(18,191,156,1) 76%, rgba(0,212,255,1) 100%);
+    */
+    background-color: rgb(255, 255, 255);
+    padding-left:0px;
+    margin:0px;
+
+  }  
+
+  .nav-bar{
+    background: hsl(0, 1%, 17%);
+    overflow: hidden;
+    border: solid black 1px;
+    margin: 0px;
+    
+   }
+
+   .nav-bar a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+   .nav-bar a:hover{
+       color: rgb(153, 72, 153);
+   }
+
+  .active{
+    background-color: rgb(114, 93, 121);
+
+  }
+  .nav-text{
+    padding-left:100px
+  }
+   
+  .row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  }    
+  nav {
+    width: 11%;
+    height:20%;
+    position: fixed;
+    left: 52px;
+    top:100;
+    background-color: rgb(228, 225, 231);
+    overflow-x: hidden;
+    text-align:center;
+    margin-top:10px;
+  }
+  nav a{
+      color:black;
+      text-decoration:none;
+  }
+
+
+  .column {
+  margin-left:18%;
+  min-height: 8em;
+  padding: 1em;
+  width: 65%;
+  background-color: rgb(255, 255, 255);
+  margin-top:10px;
+}
+  aside {
+  min-height: 8em;
+  padding: 1em;
+  width: 15%;
+  }
+  a {
+    text-decoration: none;
+  }
+  a:hover {
+    color: rgb(218, 38, 218);
+
+  }
+   .date{
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-size: 15px;
+    color: hsl(0, 2%, 25%);
+    margin-bottom: 0px;
+}
+.subtitle {
+  margin-bottom : 1px;
+  border-top: dashed black 1px;
+}
+.text{
+  font-family:'Scope One';
+}
+
+footer {
+  margin-left:0px;
+  margin-right:0px;
+  margin-bottom:0px;
+  margin-top: 0.2em;
+  padding-top: 0.5em;
+  padding-bottom:0.5em;
+  padding-left:5em;
+  background: hsl(0, 1%, 17%);
+  text-align: left;
+  color:white;
+  z-index: 1;
+}
+footer a{
+   text-decoration:none;
+   color: white;
+}
+
+
+.tab{
+  padding-left:4em;
+}
